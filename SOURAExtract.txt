@@ -1,5 +1,0 @@
-function [S] = SOURAExtract(y0,y1,y2,y3)
-
-  S=mod((y0+4*y1+16*y2+64*y3),256);
-
-end
